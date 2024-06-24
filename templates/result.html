@@ -1,0 +1,18 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connection Result</title>
+</head>
+<body>
+    <h1>Connection Result</h1>
+    {% if success %}
+        <p style="color: green;">{{ message }}</p>
+    {% else %}
+        <p style="color: red;">{{ message }}</p>
+    {% endif %}
+    <a href="/">Back</a>
+</body>
+</html>

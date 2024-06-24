@@ -1,0 +1,20 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test PostgreSQL Connection</title>
+</head>
+<body>
+    <h1>Test PostgreSQL Connection</h1>
+    <form action="/test-connection" method="post" enctype="multipart/form-data">
+        <input type="submit" value="Test Connect">
+    </form>
+    <h1>Upload File to S3</h1>
+    <form action="/upload-file" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload File">
+    </form>
+</body>
+</html>
